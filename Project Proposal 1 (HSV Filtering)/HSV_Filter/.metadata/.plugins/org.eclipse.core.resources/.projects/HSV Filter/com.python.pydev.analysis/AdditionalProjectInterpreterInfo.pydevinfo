@@ -1,0 +1,22 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\You\Desktop\Carlos\School\Mechatronics\Test\.metadata\.plugins\org.eclipse.core.resources\.projects\HSV Filter\com.python.pydev.analysis\v2_indexcache
+HSV_Filter|1508369322820504000|C:\Users\You\Desktop\Carlos\School\Mechatronics\Test\HSV Filter\HSV_Filter.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=HSV_Filter
+-- END DICTIONARY
+-- START TREE 1
+7
+cap|1|cap!11@
+hsv|1|hsv!11@
+k|1|k!11@
+low|1|lower_blue!11@
+mas|1|mask!11@
+res|1|res!11@
+upp|1|upper_blue!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
