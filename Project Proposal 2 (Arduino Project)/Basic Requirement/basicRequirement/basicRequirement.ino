@@ -26,9 +26,10 @@ void loop() {
       break;
     }
     output += input;
-  } 
+  }
+  degree = atoi(output);
+  
   //Serial.println(output);
-  degree += 20;
   if (degree > 180){
     degree = 0;
   }
