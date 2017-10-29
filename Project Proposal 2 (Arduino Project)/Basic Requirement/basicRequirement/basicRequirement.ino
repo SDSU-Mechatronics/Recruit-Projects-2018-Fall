@@ -4,7 +4,7 @@ int pinIn = 0;
 int pinOut = 3;
 int degree = 0;
 
-String output = "Hello, World!";
+String output = "5";
 int length = 0;
 int gotInput = 0;
 
@@ -17,6 +17,7 @@ void setup(){
 }
 
 void loop() {
+  output = "";
   while (Serial.available()){
     char input = Serial.read();
     
@@ -27,13 +28,13 @@ void loop() {
     }
     output += input;
   }
-  degree = atoi(output);
+  if (output != ""){ 
+    degree = output.toInt();
+  }
   
-  //Serial.println(output);
   if (degree > 180){
     degree = 0;
   }
-  Serial.println(degree);
   serv.write(degree);
   delay(250);
 }
